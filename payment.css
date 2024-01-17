@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 18p;
+    padding: 9px;
+}
+.containar{
+    background-color:rgb(223, 216, 207);
+    padding: 5px 20px 15px 20px;
+    border: 2px solid rgb(120, 133, 138);
+    border-radius: 4px;
+    margin: 200px;  
+    
+}
+input[type="text"],
+input[type="email"],
+input[type="numbar"],
+input[type="password"],
+input[type="data"],
+select,
+textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #1d1b1b;
+    border-radius: 5px;
+    margin: 10px;
+
+}
+fieldset{
+    background-color:rgb(223, 216, 207);
+    border: 1px solid rgb(120, 133, 138);
+    
+}
+.mai_bot{
+    text-align: center;
+}
+input[type="submit"]{
+    background-color: rgb(50, 154, 196);
+    color: rgb(248, 249, 250);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: grab;
+    width: 100%;
+}
+input[type="submit"]:hover{
+    background-color: green;
+}

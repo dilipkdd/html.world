@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        .shopping{
+            width:980px;
+            height:600px;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 100px;
+            margin: 50px;
+            
+        }
+        .image{
+            width: 290px;
+            height: 600px;
+            padding: 15px;
+            background-color:antiquewhite;
+            border-radius: 25px;
+            border-color: rgb(243, 231, 231);
+            flex-wrap: wrap;
+        }
+        .shop{
+            
+            width: 100px;
+            background-color: rgb(124, 230, 172);
+            border-color: antiquewhite;
+            border-radius: 15px;
+            text-align: center;
+            color: black;
+        }
+        .shop:hover{
+            cursor:grab;
+            background-color: rgb(73, 243, 243);
+            
+        }
+        h1{
+         
+         height: 50px;
+         text-align: center;
+         background-color: antiquewhite;
+         border-radius: 15px;
+            
+        }
+        </style>
+</head>
+<body>
+    <h1>Shopping app 
+        
+    </h1>
+   
+    <div class="shopping">
+    <div class="image">
+       <img src="/home/hasmukh/Downloads/download.png" alt="img">
+       <h1>Flipcard:</h1>
+       <p>sit amet consectetur adipisicing elit. Voluptas magnam facere vel nostrum et ex. Omnis, dolore consequuntur rerum ipsum blanditiis inventore exercitationem sint facere?</p>
+       <img src="/home/hasmukh/Downloads/download (1).jpeg" alt="img">
+       shop now:<input class="shop"   type="shopping" placeholder="buy" id="ordar" ob >
+
+    </div>
+    <div class="image">
+        <img src="/home/hasmukh/Downloads/download (1).png" alt="img">
+        <h1>amazon:</h1>
+        <p>sit amet consectetur adipisicing elit. Voluptas magnam facere vel nostrum et ex. Omnis, dolore consequuntur rerum ipsum blanditiis inventore exercitationem sint facere?</p>
+        <img src="/home/hasmukh/Downloads/download (2).jpeg" alt="img">
+        shop now:<input class="shop" type="shopping" placeholder="buy" id="ordar" ob >
+   
+       </div>
+       <div class="image">
+        <img src="/home/hasmukh/Downloads/images.png" alt="img">
+        <h1>meesho:</h1>
+        <p>sit amet consectetur adipisicing elit. Voluptas magnam facere vel nostrum et ex. Omnis, dolore consequuntur rerum ipsum blanditiis inventore exercitationem sint facere?</p>
+        <img src="/home/hasmukh/Downloads/download.jpeg" alt="img">
+        shop now:<input class="shop" type="shopping" placeholder="buy" id="ordar" ob >
+   
+       </div>
+    </div>
+</body>
+</html>

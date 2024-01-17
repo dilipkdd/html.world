@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            padding: 0 20px 30px 0;
+            line-height: 1.4;
+        }
+        .flex-container{
+            width: 1200px;
+            height: 300px;
+            border:2px soli burlywood;
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+        .flex-item{
+            width:150px;
+            height:100px;
+            background-color: rgb(165, 240, 215);
+            border: 2px solid rgb(60, 182, 168);
+            text-align: center;
+            font-size: 2em;
+            color: white;
+            font-weight: bold;
+            line-height: 1.4;
+            padding: 12px;
+            margin: 12px;
+
+        }
+        #flex-item-1{
+            flex-flow: row wrap;
+            
+            background-color: rgb(89, 138, 180);
+
+        }
+        #flex-item-2{
+            
+            background-color: antiquewhite;
+        }
+        #flex-item-3{
+            
+            background-color: cadetblue;
+        }
+        #flex-item-4{
+            background-color: cornflowerblue;
+        }
+        #flex-item-5{
+            background-color:rgb(165, 240, 215) ;
+        }
+        .daba,.daba2,.daba3{
+            display: flex;
+            flex-wrap: wrap;
+            width: 900px;
+            height: 155px;
+            background-color: aquamarine;
+            
+
+
+        }
+        .box{
+            width: 200px;
+            height: 100px;
+            border: 2px solid white;
+            margin: 10px;
+            text-align: center;
+            padding: 15px;
+            border-radius: 12px;
+        }
+        .box2{
+            width: 150px;
+            height: 12px;
+            border: 2px solid white;
+            margin: 1px;
+            text-align: center;
+            border-radius: 12px;
+            
+            padding: 10px;
+        }
+        .box3{
+            width: 150px;
+            height: 12px;
+            border: 2px solid white;
+            margin: 10px;
+            text-align: center;
+            padding: 15px;
+            border-radius: 12px;
+        }
+        .daba4{
+            width: 15px;
+            height: 8px;
+            display: flex;
+            
+        }
+        .box4{
+            width: 5px;
+            height: 15px;
+            background-color: cadetblue;
+            color: honeydew;
+            padding: 10px;
+            margin: 8px;
+            border-radius: 5px;
+        }
+        .box4:hover{
+            color: black;
+            cursor: progress;
+            
+        }
+
+
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item" id="flex-item-1">1</div>
+        <div class="flex-item" id="flex-item-2">2</div>
+        <div class="flex-item" id="flex-item-3">3</div>
+        <div class="flex-item" id="flex-item-4">4</div>
+        <div class="flex-item" id="flex-item-5">5</div>
+    </div>
+    <div class="daba">
+        <div class="box">A
+            <p><div class="daba4">
+                <div class="box4">D</div>
+                <div class="box4">I</div>
+                <div class="box4">L</div>
+                <div class="box4">I</div>
+                <div class="box4">P</div>
+               
+            </div></p> 
+        </div>
+        <div class="box">B</div>
+        <div class="box">C</div>
+    </div>
+    <hr>
+    <div class="daba2">
+        <div class="box2">D</div>
+        <div class="box2">E</div>
+        <div class="box2">F</div>
+        <div class="box2">G</div>
+    </div>
+    <hr>
+    <div class="daba3">
+        <div class="box3">H</div>
+        <div class="box3">I</div>
+        <div class="box3">J</div>
+        <div class="box3">K</div>
+        <div class="box3">L</div>
+    </div> 
+</body>
+</html>
