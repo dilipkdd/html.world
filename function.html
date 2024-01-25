@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function in js</title>
+</head>
+<body>
+    <script>
+        /*
+//1
+
+
+let animal ={
+    name : "zibra",
+    leg :4
+};
+for(let key in animal){
+    console.log(key,animal[key]);
+}
+let names = ["dilip","kishor","rahul","sanjay"];
+   for (let index in names){
+    console.log(index,names[index])
+   }
+   for (let i=5; i<51;i=i+5){
+    console.log(i)
+   }
+   
+ //2 
+  
+   function cookmaggi (maggi,pani,tapeli){
+    console.log(" your maggie will bw ready in "
+    + maggi* 2
+    + " minutes"
+    + " and ingredients used are : - "
+    + maggi + " maggi "
+    + pani + " cups of water "
+    + "using " + tapeli + " pan")
+
+}   
+cookmaggi(4, 8, 1)
+*/
+
+// 3
+
+
+let bread1 = prompt("which bread would you like to have :-")
+let veggies1 = prompt("what are your favorite veggies:")
+let sauce1 = prompt("which sauce would you like to have:")
+
+function makesandwich(bread, veggies, sauce){
+    let sandwich = bread + " bread " + veggies + " " + sauce + " sandwich is ready " ;
+    return sandwich;
+}
+
+let vegsandwich = makesandwich(bread1, veggies1, sauce1);
+console.log(vegsandwich);
+
+
+
+
+
+    </script>
+   
+    
+</body>
+</html>
